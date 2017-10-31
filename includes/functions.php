@@ -43,7 +43,7 @@ function insert_user( $username, $name, $password, $email ) {
 
   $query = "INSERT INTO users (username, name, password, email) VALUES ('$username', '$name', '$password', '$email')";
 
-  if ( mysqli_query( $mysqli, $query ) ) {
+  if ( mysqli_query( $db_connection, $query ) ) {
     echo "El usuario se insertó correctamente";
   }
 }
