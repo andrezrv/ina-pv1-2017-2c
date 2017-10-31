@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+main {
+	border: 1px solid green;
+}
+
+.box-container {
+	border: 1px solid blue;
+	width: 100%;
+	padding: 30px;
+	overflow: auto;
+}
+
+.box {
+	font-size: 48px;
+	text-align: center;
+	border: 1px solid red;
+	margin-bottom: 20px;
+	width: 25%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.overflow-test {
+	border: 3px solid orange;
+	width: 50%;
+	margin: auto;
+	height: 100px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.overflow-test p {
+	width: 200%;
+}
